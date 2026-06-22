@@ -1,5 +1,5 @@
 .PHONY: jupyter-notebook
-jupyter-notebook:
+jupyter-notebook: .venv/bin/jupyter-notebook
 	./.venv/bin/jupyter-notebook
 
 .PHONY: pip-install
